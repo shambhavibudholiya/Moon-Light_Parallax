@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Moon Light Parallax Effects | Vanilla JavaScript</title>
+</head>
+<body>
+    <section>
+    <img src="images/bg.jpg" id="bg">
+    <img src="images/moon.png" id="moon">
+    <img src="images/mountain.png" id="mountain">
+    <img src="images/road.png" id="road">
+    <h2 id="text">Moon Light</h2>
+</section>
+
+<script type="text/javascript">
+    let bg = document.getElementById("bg");
+    let moon = document.getElementById("moon");
+    let mountain = document.getElementById("mountain");
+    let road = document.getElementById("road");
+    let text = document.getElementById("text");
+
+    window.addEventListener('scroll', function(){
+    var value = window.scrollY;
+
+    bg.style.top = value * 0.5 + 'px';
+    moon.style.left = -value * 0.5 + 'px';
+    mountain.style.top = -value * 0.15 + 'px';
+    road.style.top = value * 0.15 + 'px';
+    text.style.top = value * 0.5 + 'px';
+})
+</script>
+<br>
+<br>
+<br>
+<h1>KNOW THE MOON</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint aut voluptates deleniti provident exercitationem reprehenderit quod laborum quaerat? Aliquid accusantium beatae neque quibusdam omnis, tempora sint quam dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate magni dolorem dolor vero quibusdam soluta qui repellendus consectetur quisquam quidem, laudantium itaque porro adipisci eos ut provident. Quae, repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fugiat beatae consectetur at, molestias accusamus! Quaerat ut debitis reprehenderit optio quibusdam. Saepe ut totam velit libero repellendus dolor, numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis quo quibusdam a, aliquid sapiente unde? Molestias, provident. Ducimus repudiandae odio hic provident nulla tempora neque itaque doloribus quis nam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto similique eum rem non. Assumenda, magnam officia mollitia sapiente qui provident odio quae cum voluptates nisi rerum! Rem fugiat veniam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maxime magnam eligendi, amet veritatis labore quo non et provident necessitatibus commodi, magni sapiente similique id in? Animi aut harum saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolore ad nemo dolorum odit facilis illo, aperiam voluptate quia pariatur quidem, aut animi. Aperiam, repudiandae consequatur minus tempore iste illo?</p>
+<br>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint aut voluptates deleniti provident exercitationem reprehenderit quod laborum quaerat? Aliquid accusantium beatae neque quibusdam omnis, tempora sint quam dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate magni dolorem dolor vero quibusdam soluta qui repellendus consectetur quisquam quidem, laudantium itaque porro adipisci eos ut provident. Quae, repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fugiat beatae consectetur at, molestias accusamus! Quaerat ut debitis reprehenderit optio quibusdam. Saepe ut totam velit libero repellendus dolor, numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis quo quibusdam a, aliquid sapiente unde? Molestias, provident. Ducimus repudiandae odio hic provident nulla tempora neque itaque doloribus quis nam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto similique eum rem non. Assumenda, magnam officia mollitia sapiente qui provident odio quae cum voluptates nisi rerum! Rem fugiat veniam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maxime magnam eligendi, amet veritatis labore quo non et provident necessitatibus commodi, magni sapiente similique id in? Animi aut harum saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolore ad nemo dolorum odit facilis illo, aperiam voluptate quia pariatur quidem, aut animi. Aperiam, repudiandae consequatur minus tempore iste illo?</p>
+<br>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint aut voluptates deleniti provident exercitationem reprehenderit quod laborum quaerat? Aliquid accusantium beatae neque quibusdam omnis, tempora sint quam dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate magni dolorem dolor vero quibusdam soluta qui repellendus consectetur quisquam quidem, laudantium itaque porro adipisci eos ut provident. Quae, repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fugiat beatae consectetur at, molestias accusamus! Quaerat ut debitis reprehenderit optio quibusdam. Saepe ut totam velit libero repellendus dolor, numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis quo quibusdam a, aliquid sapiente unde? Molestias, provident. Ducimus repudiandae odio hic provident nulla tempora neque itaque doloribus quis nam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto similique eum rem non. Assumenda, magnam officia mollitia sapiente qui provident odio quae cum voluptates nisi rerum! Rem fugiat veniam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maxime magnam eligendi, amet veritatis labore quo non et provident necessitatibus commodi, magni sapiente similique id in? Animi aut harum saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolore ad nemo dolorum odit facilis illo, aperiam voluptate quia pariatur quidem, aut animi. Aperiam, repudiandae consequatur minus tempore iste illo?</p>
+<br>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint aut voluptates deleniti provident exercitationem reprehenderit quod laborum quaerat? Aliquid accusantium beatae neque quibusdam omnis, tempora sint quam dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate magni dolorem dolor vero quibusdam soluta qui repellendus consectetur quisquam quidem, laudantium itaque porro adipisci eos ut provident. Quae, repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fugiat beatae consectetur at, molestias accusamus! Quaerat ut debitis reprehenderit optio quibusdam. Saepe ut totam velit libero repellendus dolor, numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis quo quibusdam a, aliquid sapiente unde? Molestias, provident. Ducimus repudiandae odio hic provident nulla tempora neque itaque doloribus quis nam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto similique eum rem non. Assumenda, magnam officia mollitia sapiente qui provident odio quae cum voluptates nisi rerum! Rem fugiat veniam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maxime magnam eligendi, amet veritatis labore quo non et provident necessitatibus commodi, magni sapiente similique id in? Animi aut harum saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolore ad nemo dolorum odit facilis illo, aperiam voluptate quia pariatur quidem, aut animi. Aperiam, repudiandae consequatur minus tempore iste illo?</p>
+<br>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint aut voluptates deleniti provident exercitationem reprehenderit quod laborum quaerat? Aliquid accusantium beatae neque quibusdam omnis, tempora sint quam dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate magni dolorem dolor vero quibusdam soluta qui repellendus consectetur quisquam quidem, laudantium itaque porro adipisci eos ut provident. Quae, repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fugiat beatae consectetur at, molestias accusamus! Quaerat ut debitis reprehenderit optio quibusdam. Saepe ut totam velit libero repellendus dolor, numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis quo quibusdam a, aliquid sapiente unde? Molestias, provident. Ducimus repudiandae odio hic provident nulla tempora neque itaque doloribus quis nam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto similique eum rem non. Assumenda, magnam officia mollitia sapiente qui provident odio quae cum voluptates nisi rerum! Rem fugiat veniam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maxime magnam eligendi, amet veritatis labore quo non et provident necessitatibus commodi, magni sapiente similique id in? Animi aut harum saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, dolore ad nemo dolorum odit facilis illo, aperiam voluptate quia pariatur quidem, aut animi. Aperiam, repudiandae consequatur minus tempore iste illo?</p>
+
+</body>
+</html>
